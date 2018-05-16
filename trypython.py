@@ -215,16 +215,60 @@
 #     { 'name': 'Joe', 'age': 24, 'nationality': 'USA', 'subjects': ['Maths', 'Art', 'History']}
 #     ]
     
-student = { 'name': 'Richard', 'age': 21, 'nationality': 'Irish', 'subjects': ['Maths', 'Art', 'History']}
-students = {
-    'Richard':{ 'name': 'Richard', 'age': 21, 'nationality': 'Irish', 'subjects': ['Maths', 'Art', 'History']},
-    'Mary':{ 'name': 'Mary', 'age': 22, 'nationality': 'Oz', 'subjects': ['Maths', 'Art', 'History']},
-    'Anne':{ 'name': 'Anne', 'age': 23, 'nationality': 'Spanish', 'subjects': ['Maths', 'Art', 'History']},
-    'Joe':{ 'name': 'Joe', 'age': 24, 'nationality': 'USA', 'subjects': ['Maths', 'Art', 'History']}
-    }  
+# student = { 'name': 'Richard', 'age': 21, 'nationality': 'Irish', 'subjects': ['Maths', 'Art', 'History']}
+# students = {
+#     'Richard':{ 'name': 'Richard', 'age': 21, 'nationality': 'Irish', 'subjects': ['Maths', 'Art', 'History']},
+#     'Mary':{ 'name': 'Mary', 'age': 22, 'nationality': 'Oz', 'subjects': ['Maths', 'Art', 'History']},
+#     'Anne':{ 'name': 'Anne', 'age': 23, 'nationality': 'Spanish', 'subjects': ['Maths', 'Art', 'History']},
+#     'Joe':{ 'name': 'Joe', 'age': 24, 'nationality': 'USA', 'subjects': ['Maths', 'Art', 'History']}
+#     }  
     
-for subject in student['subjects']:
-    print(subject)
+# for subject in student['subjects']:
+#     print(subject)
+#---------------------------------------------
+
+#-----Adding to Dictionary 
+
+# d = {}
+
+# key = "dummy"
+# while key != "":
+#     key = input("Enter a key: ")
+#     if key != "":
+#         value = input("Enter value: ")
+#         d[key] = value
+
+# print(d)
+# ------------------Dictionary of Word Lengths
+# fruits = ['apple', 'orange', 'tin', 'banana']
+
+# d = {}
+
+# for f in fruits:
+#     d[f] = len(f)
+    
+# print(d)
+
+#-------------------------66
+#   musicians = {
+#       "John":{
+#           "name": "John",
+#           "nationality":"English",
+#           "gender":"Male",
+#           "instruction":{"guitar": 75, "piano": 67}
+#           "band":["Guitar Heroes", "Piano Players"]
+#       },
+#       "Mary":{
+#           "name": "John",
+#           "nationality":"English",
+#           "gender":"Male",
+#           "instruction":{"drums": 100, "saxamaphone": 16, "triangle": 20}
+#           "band":["Guitar Heroes", "Piano Players"]
+#       }  
+      
+from data import musicians
+for m in musicians:
+    print(musicians)
     
 
 
